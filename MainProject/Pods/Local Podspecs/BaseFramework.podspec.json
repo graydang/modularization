@@ -1,0 +1,29 @@
+{
+  "name": "BaseFramework",
+  "version": "0.0.1",
+  "summary": "Gray's modularization BaseFramework.",
+  "description": "Gray's BaseFramework demo",
+  "homepage": "http://graydeng.BaseFramework",
+  "license": "MIT",
+  "authors": {
+    "Gray": "graydeng@sohu-inc.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "http://graydeng/BaseFramework.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ]
+  }
+}
